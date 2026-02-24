@@ -92,7 +92,7 @@ def interpret_single_image(
     site_label_map: Dict[str, str],
     symptoms_list: List[str],
     pipe: Any,
-    max_tokens: int = 2048,
+    max_tokens: int = 4096,
 ) -> Dict[str, Any]:
     """Call MedGemma 1.5 4B via Hugging Face pipeline on a single image.
 
