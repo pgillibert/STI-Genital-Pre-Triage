@@ -1,0 +1,9 @@
+streamlit
+openai
+google-genai
+pandas
+pycountry
+Pillow
+torch
+transformers
+accelerate
