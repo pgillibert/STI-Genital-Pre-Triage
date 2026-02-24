@@ -30,7 +30,7 @@ def get_testing_guidance(
     *,
     model: str = "gemini-2.5-flash",
     temperature: float = 0.0,
-    max_output_tokens: int = 700,
+    max_output_tokens: int = 4096,
 ) -> Tuple[Optional[str], Optional[str]]:
     """Return (text, error)."""
     if _IMPORT_ERR is not None:
