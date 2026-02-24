@@ -454,21 +454,21 @@ with st.sidebar:
     st.subheader("Configuration")
 
     medgemma_27b_token = st.text_input(
-        "MedGemma-27B API Key [Huggingface](https://huggingface.co/google/medgemma-27b-text-it)",
+        "MedGemma-27B Access Token [Huggingface](https://huggingface.co/google/medgemma-27b-text-it)",
         value="",
         type="password",
         help="Hugging Face token (Read) for MedGemma-27B text model (differential triage).",
     )
 
     medgemma_15_token = st.text_input(
-        "MedGemma-1.5-4B API Key [Huggingface](https://huggingface.co/google/medgemma-1.5-4b-it)",
+        "MedGemma-1.5-4B Access Token [Huggingface](https://huggingface.co/google/medgemma-1.5-4b-it)",
         value="",
         type="password",
         help="Hugging Face token (Read) for MedGemma-1.5-4B image interpretation.",
     )
 
     gemini_flash_key = st.text_input(
-        "Gemini Flash API Key [Gemini](https://gemini.google.com/)",
+        "Gemini Flash API Key [Gemini](https://aistudio.google.com/api-keys)",
         value="",
         type="password",
         help="Google Gemini Flash 2.5 token."
