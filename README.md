@@ -25,5 +25,12 @@ In order to use the application, you need to provide access key to various langu
 
 Then enter your age, country, affected area, symptoms:
 ![Main zone of the interface, give the symptoms](images/symptoms.png)
+
 Click on 'Run analysis (top-3)
+
 ![Result and suggestions](images/result.png)
+
+## Workflow
+
+![Workflow](inbox_15850080_55996e696be2492c372a6a07e5a134f8_diagram.png)
+
