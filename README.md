@@ -32,5 +32,5 @@ Click on 'Run analysis (top-3)
 
 ## Workflow
 
-![Workflow](inbox_15850080_55996e696be2492c372a6a07e5a134f8_diagram.png)
+![Workflow](images/diagram.png)
 
