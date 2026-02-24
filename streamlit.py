@@ -478,7 +478,7 @@ with st.sidebar:
         os.environ["GEMINI_API_KEY"] = gemini_flash_key
 
     temperature = 0.0
-    max_tokens = 2048
+    max_tokens = 4096
 
 
 sym_display_map = {o.code: o.patient_label for o in SYMPTOMATIC_SITE_OPTIONS}
