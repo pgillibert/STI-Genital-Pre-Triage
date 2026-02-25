@@ -15,7 +15,7 @@ import ast
 import base64
 import json
 import os
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 import pandas as pd  # type: ignore
 from PIL import Image  # type: ignore
@@ -26,7 +26,7 @@ from transformers import pipeline  # type: ignore
 def load_visual_symptoms(sti_csv_path: str) -> List[str]:
     if not os.path.exists(sti_csv_path):
         raise FileNotFoundError(f"sti_structured.csv not found at {sti_csv_path}")
-    df = pd.read_csv(sti_csv_path)
+    df = pd.read_csv(sti_csv_path, sep=";")
     symptoms: List[str] = []
     for _, row in df.iterrows():
         raw = row.get("visual_symptoms_by_stage", None)
